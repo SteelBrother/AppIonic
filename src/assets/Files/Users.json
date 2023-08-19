@@ -1,0 +1,24 @@
+{
+    "data": [
+      {
+        "Nombre":"Nicolas Moreno",
+        "Ciudad" : "Bogota"
+      },
+      {
+        "Nombre":"Stiven Moreno",
+        "Ciudad" : "Cali"
+      },
+      {
+        "Nombre":"Stiven Gonzalez",
+        "Ciudad" : "Medellin"
+      },
+      {
+        "Nombre":"Pepe Sierra",
+        "Ciudad" : "Barranquilla"
+      },
+      {
+        "Nombre":"Jhon Beltran",
+        "Ciudad" : "Bogota"
+      }
+    ]
+}

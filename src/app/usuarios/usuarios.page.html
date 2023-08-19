@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Usuarios</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Usuarios</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>
+    <ion-list-header>
+      Usuarios frecuentes
+    </ion-list-header>
+    <ion-item *ngFor="let user of Allusers" >
+      <ion-avatar>
+        <img src="../../assets/Images/persona.png">
+      </ion-avatar>
+      <ion-label>
+        <h2>{{user.Nombre}}</h2>
+        <h3>{{user.Ciudad}}</h3>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

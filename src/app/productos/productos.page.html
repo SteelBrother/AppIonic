@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Productos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Productos</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-accordion-group>
+    <ion-accordion value="first">
+      <ion-item slot="header" color="light">
+        <ion-label>Camiseta</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">    <img src="../../assets/Images/camisa.jpg"></div>
+    </ion-accordion>
+    <ion-accordion value="second">
+      <ion-item slot="header" color="light">
+        <ion-label>Pantalon</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">   <img src="../../assets/Images/pantalonjpg.jpg"></div>
+    </ion-accordion>
+    <ion-accordion value="third">
+      <ion-item slot="header" color="light">
+        <ion-label>Zapatos</ion-label>
+      </ion-item>
+      <div class="ion-padding" slot="content">     <img src="../../assets/Images/zapatos.jpg"></div>
+    </ion-accordion>
+  </ion-accordion-group>
+  
+</ion-content>
+
